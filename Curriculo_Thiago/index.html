@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Currículo de Thiago Ian</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('F.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      min-height: 100vh;
+    }
+
+    .perfil-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .hover-section:hover {
+      background-color: #f8fafc;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .azul-custom {
+      color: #13416B;
+    }
+
+    .botao-musica {
+      background-color: #13416B;
+      color: white;
+      padding: 0.4rem 1.2rem;
+      border-radius: 9999px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-top: 2rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.3s ease;
+    }
+
+    .botao-musica:hover {
+      background-color: #0f2f4e;
+    }
+  </style>
+</head>
+<body>
+  <audio id="musica-fundo" loop>
+    <source src="S.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <!-- Container principal -->
+  <div class="max-w-4xl mx-auto p-6 bg-white/90 shadow-2xl rounded-2xl mt-10 backdrop-blur-sm transition-all duration-300">
+    <header class="text-center mb-8">
+      <center>
+        <img src="P.jpg" alt="Foto de Perfil" class="perfil-img mx-auto mb-4" />
+      </center>
+      <h1 class="text-4xl font-bold azul-custom hover:scale-105 transition-transform duration-300">Thiago Ian dos Santos Silva</h1>
+      <p class="text-gray-600 mt-2">Alagoinhas - BA | 19 anos</p>
+      <p class="text-sm text-gray-600">CEP: 48012-250 | (75) 99850-4282</p>
+      <p class="text-sm text-gray-600">thiagoiandossantossilva@gmail.com</p>
+      <a href="https://www.linkedin.com/in/thiago-ian"
+         class="text-blue-600 underline mt-1 inline-block transition-all duration-300 hover:text-blue-800 hover:scale-105"
+         target="_blank">Linkedin</a>
+    </header>
+
+    <!-- Objetivo -->
+    <section class="mb-6 hover-section transition-all duration-300 hover:shadow-md hover:bg-gray-50 rounded-lg p-4">
+      <h2 class="text-xl font-semibold azul-custom border-b pb-1 mb-2">Objetivo</h2>
+      <p>Atuar no mercado industrial, a fim de executar as atividades do ramo e atingir bons resultados.</p>
+    </section>
+
+    <!-- Experiência Profissional -->
+    <section class="mb-6 hover-section transition-all duration-300 hover:shadow-md hover:bg-gray-50 rounded-lg p-4">
+      <h2 class="text-xl font-semibold azul-custom border-b pb-1 mb-2">Experiência Profissional</h2>
+      <p><strong>Jovem Aprendiz – LOG</strong><br>
+        <a href="https://www.pkgbrasil.com.br/" target="_blank" class="text-blue-700 hover:underline">PKG do Brasil</a><br>
+        Nov/2024 – Atual</p>
+    </section>
+
+    <!-- Formação Acadêmica -->
+    <section class="mb-6 hover-section transition-all duration-300 hover:shadow-md hover:bg-gray-50 rounded-lg p-4">
+      <h2 class="text-xl font-semibold azul-custom border-b pb-1 mb-2">Formação Acadêmica</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><strong>Engenharia de Produção</strong> (Cursando) – 
+          <a href="https://www.fsssacramento.br/" target="_blank" class="text-blue-700 hover:underline">Faculdade Santíssimo Sacramento</a><br>
+          <span class="text-sm text-gray-600">Ago/2024 – Dez/2029</span>
+        </li>
+        <li><strong>Assistente Administrativo</strong> – 
+          <a href="https://www.senaibahia.com.br/" target="_blank" class="text-blue-700 hover:underline">SENAI</a><br>
+          <span class="text-sm text-gray-600">Nov/2023 – Jun/2025</span>
+        </li>
+        <li><strong>Técnico em Química</strong> – 
+          <a href="https://www.senaibahia.com.br/" target="_blank" class="text-blue-700 hover:underline">SENAI</a><br>
+          <span class="text-sm text-gray-600">Jun/2021 – Jun/2023</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Formação Complementar -->
+    <section class="mb-6 hover-section transition-all duration-300 hover:shadow-md hover:bg-gray-50 rounded-lg p-4">
+      <h2 class="text-xl font-semibold azul-custom border-b pb-1 mb-2">Formação Complementar</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>
+          <strong>Comunicação Empresarial</strong> – 
+          <a href="https://www.ev.org.br/" target="_blank" class="text-blue-700 hover:underline">Fundação Bradesco</a><br>
+          <span class="text-sm text-gray-600">Carga horária: 12h | Conclusão: Jul/2023</span>
+        </li>
+        <li>
+          <strong>Pacote Office</strong> – 
+          <a href="https://www.ev.org.br/" target="_blank" class="text-blue-700 hover:underline">Fundação Bradesco</a><br>
+          <span class="text-sm text-gray-600">Carga horária: 20h | Conclusão: Abr/2023</span>
+        </li>
+        <li>
+          <strong>Inglês (Nível Intermediário)</strong> – 
+          <a href="https://kultivi.com/" target="_blank" class="text-blue-700 hover:underline">Kultivi</a><br>
+          <span class="text-sm text-gray-600">Carga horária: 60h | Conclusão: Nov/2022</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Botão Play/Pause no final -->
+    <div class="text-center">
+      <button id="controle-musica" class="botao-musica mt-6">Play</button>
+    </div>
+  </div>
+
+  <!-- Script para controle da música -->
+  <script>
+    const musica = document.getElementById('musica-fundo');
+    const botao = document.getElementById('controle-musica');
+
+    musica.volume = 0.3;
+
+    botao.addEventListener('click', () => {
+      if (musica.paused) {
+        musica.play();
+        botao.textContent = 'Pause';
+      } else {
+        musica.pause();
+        botao.textContent = 'Play';
+      }
+    });
+  </script>
+</body>
+</html>
